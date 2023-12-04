@@ -1,0 +1,346 @@
+definitions:
+  controllers._ResponseCreatePost:
+    properties:
+      code:
+        description: 状态码
+        type: string
+      message:
+        description: 提示信息
+        type: string
+    type: object
+  controllers._ResponsePostDetail:
+    properties:
+      code:
+        description: 状态码
+        type: string
+      data:
+        allOf:
+        - $ref: '#/definitions/models.ApiPostDetail'
+        description: 数据
+      message:
+        description: 提示信息
+        type: string
+    type: object
+  controllers._ResponsePostList:
+    properties:
+      code:
+        allOf:
+        - $ref: '#/definitions/controllers.ResCode'
+        description: 业务响应码
+      data:
+        description: 数据
+        items:
+          $ref: '#/definitions/models.ApiPostDetail'
+        type: array
+      message:
+        description: 提示信息
+        type: string
+    type: object
+  controllers.ResCode:
+    enum:
+    - 1000
+    - 1001
+    - 1002
+    - 1003
+    - 1004
+    - 1005
+    - 1006
+    - 1007
+    type: integer
+    x-enum-varnames:
+    - CodeSuccess
+    - CodeInvalidParam
+    - CodeUserExist
+    - CodeUserNotExist
+    - CodeInvalidPassword
+    - CodeServerBusy
+    - CodeInvalidToken
+    - CodeNeedLogin
+  models.ApiPostDetail:
+    properties:
+      author_id:
+        type: integer
+      author_name:
+        type: string
+      community:
+        allOf:
+        - $ref: '#/definitions/models.CommunityDetail'
+        description: 嵌入社区信息
+      community_id:
+        type: integer
+      content:
+        type: string
+      create_time:
+        type: string
+      id:
+        example: "0"
+        type: string
+      status:
+        type: integer
+      title:
+        type: string
+      votes:
+        type: integer
+    required:
+    - community_id
+    - content
+    - title
+    type: object
+  models.CommunityDetail:
+    properties:
+      create_time:
+        type: string
+      id:
+        type: integer
+      introduction:
+        type: string
+      name:
+        type: string
+    type: object
+  models.ParamSignUp:
+    properties:
+      password:
+        type: string
+      re_password:
+        type: string
+      username:
+        type: string
+    required:
+    - password
+    - re_password
+    - username
+    type: object
+  models.Post:
+    properties:
+      author_id:
+        type: integer
+      community_id:
+        type: integer
+      content:
+        type: string
+      create_time:
+        type: string
+      id:
+        example: "0"
+        type: string
+      status:
+        type: integer
+      title:
+        type: string
+    required:
+    - community_id
+    - content
+    - title
+    type: object
+info:
+  contact: {}
+paths:
+  /api/v1/community/{id}:
+    get:
+      consumes:
+      - application/json
+      description: 描述
+      parameters:
+      - description: Bearer JWT
+        in: header
+        name: Authorization
+        required: true
+        type: string
+      - description: 社区id
+        in: path
+        name: id
+        required: true
+        type: string
+      produces:
+      - application/json
+      responses:
+        "200":
+          description: OK
+      security:
+      - ApiKeyAuth: []
+      summary: 概况
+      tags:
+      - 社区
+  /api/v1/post:
+    post:
+      consumes:
+      - application/json
+      description: 创建新帖子，存入数据库并在redis中记录该帖子的分数和所处社区
+      parameters:
+      - description: Bearer JWT_AToken
+        in: header
+        name: Authorization
+        required: true
+        type: string
+      - description: 参数
+        in: body
+        name: obj
+        schema:
+          $ref: '#/definitions/models.Post'
+      produces:
+      - application/json
+      responses:
+        "200":
+          description: OK
+          schema:
+            $ref: '#/definitions/controllers._ResponseCreatePost'
+      security:
+      - ApiKeyAuth: []
+      summary: 创建帖子
+      tags:
+      - 帖子
+  /api/v1/post/{id}:
+    get:
+      consumes:
+      - application/json
+      description: 通过post id获取post内容以及所所在社区和作者名
+      parameters:
+      - description: Bearer JWT
+        in: header
+        name: Authorization
+        required: true
+        type: string
+      - description: 帖子id
+        in: path
+        name: id
+        required: true
+        type: integer
+      produces:
+      - application/json
+      responses:
+        "200":
+          description: OK
+          schema:
+            $ref: '#/definitions/controllers._ResponsePostDetail'
+      security:
+      - ApiKeyAuth: []
+      summary: 通过post id获取post详情
+      tags:
+      - 帖子
+  /api/v1/posts:
+    post:
+      consumes:
+      - application/json
+      description: 描述
+      parameters:
+      - description: Bearer JWT
+        in: header
+        name: Authorization
+        required: true
+        type: string
+      - description: 页码
+        in: path
+        name: page
+        type: string
+      - description: 页面大小
+        in: path
+        name: size
+        type: string
+      produces:
+      - application/json
+      responses:
+        "200":
+          description: OK
+          schema:
+            $ref: '#/definitions/controllers._ResponsePostList'
+      security:
+      - ApiKeyAuth: []
+      summary: 概况
+      tags:
+      - 帖子
+  /api/v1/signup:
+    post:
+      consumes:
+      - application/json
+      description: 注册
+      parameters:
+      - description: 用户注册参数
+        in: body
+        name: obj
+        required: true
+        schema:
+          $ref: '#/definitions/models.ParamSignUp'
+      produces:
+      - application/json
+      responses:
+        "200":
+          description: OK
+      summary: 注册
+      tags:
+      - 用户
+  /api/v1/vote:
+    post:
+      consumes:
+      - application/json
+      description: 描述
+      parameters:
+      - description: Bearer JWT
+        in: header
+        name: Authorization
+        required: true
+        type: string
+      - description: 赞同票(1)还是反对票(-1)取消投票(0)
+        enum:
+        - 1
+        - 0
+        - -1
+        example: "0"
+        in: query
+        name: direction
+        type: string
+      - description: UserID 从请求中获取当前的用户
+        in: query
+        name: post_id
+        required: true
+        type: string
+      produces:
+      - application/json
+      responses:
+        "200":
+          description: OK
+      security:
+      - ApiKeyAuth: []
+      summary: 给帖子投票
+      tags:
+      - 帖子
+  /api/v2/posts:
+    get:
+      consumes:
+      - application/json
+      description: 根据社区id（可以为空）、页码、数量返回分页数据
+      parameters:
+      - description: Bearer JWT
+        in: header
+        name: Authorization
+        required: true
+        type: string
+      - description: 可以为空
+        in: query
+        name: community_id
+        type: integer
+      - description: 排序依据
+        example: score
+        in: query
+        name: order
+        type: string
+      - description: 页码
+        in: query
+        name: page
+        type: integer
+      - description: 每页的数据量
+        in: query
+        name: size
+        type: integer
+      produces:
+      - application/json
+      responses:
+        "200":
+          description: OK
+          schema:
+            $ref: '#/definitions/controllers._ResponsePostList'
+      security:
+      - ApiKeyAuth: []
+      summary: 获取帖子分页数据
+      tags:
+      - 帖子
+swagger: "2.0"

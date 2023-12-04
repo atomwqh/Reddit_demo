@@ -1,0 +1,358 @@
+{"level":"DEBUG","time":"2023-11-09T16:34:14.627+0800","caller":"web_app/main.go:38","msg":"logger init success..."}
+{"level":"ERROR","time":"2023-11-09T16:34:16.678+0800","caller":"mysql/mysql.go:28","msg":"connect DB failed, err:%v\n","error":"dial tcp 127.0.0.1:13306: connectex: No connection could be made because the target machine actively refused it."}
+{"level":"DEBUG","time":"2023-11-09T16:35:33.889+0800","caller":"web_app/main.go:38","msg":"logger init success..."}
+{"level":"ERROR","time":"2023-11-09T16:35:35.925+0800","caller":"mysql/mysql.go:28","msg":"connect DB failed, err:%v\n","error":"dial tcp 127.0.0.1:13306: connectex: No connection could be made because the target machine actively refused it."}
+{"level":"DEBUG","time":"2023-11-09T16:37:01.738+0800","caller":"web_app/main.go:38","msg":"logger init success..."}
+{"level":"DEBUG","time":"2023-11-09T16:37:53.948+0800","caller":"web_app/main.go:38","msg":"logger init success..."}
+{"level":"DEBUG","time":"2023-11-09T16:38:05.503+0800","caller":"web_app/main.go:38","msg":"logger init success..."}
+{"level":"DEBUG","time":"2023-11-09T16:38:17.129+0800","caller":"web_app/main.go:38","msg":"logger init success..."}
+{"level":"INFO","time":"2023-11-09T16:38:33.711+0800","caller":"web_app/main.go:74","msg":"Shutdown Server ..."}
+{"level":"INFO","time":"2023-11-09T16:38:33.711+0800","caller":"web_app/main.go:83","msg":"Server exiting"}
+{"level":"DEBUG","time":"2023-11-10T18:30:39.902+0800","caller":"web_app_v2/main.go:36","msg":"logger init success..."}
+{"level":"DEBUG","time":"2023-11-10T18:31:18.815+0800","caller":"web_app_v2/main.go:36","msg":"logger init success..."}
+{"level":"INFO","time":"2023-11-10T18:31:30.401+0800","caller":"logger/logger.go:71","msg":"/","status":404,"method":"GET","path":"/","query":"","ip":"::1","user-agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36","errors":"","cost":0}
+{"level":"INFO","time":"2023-11-10T18:31:33.418+0800","caller":"logger/logger.go:71","msg":"/version","status":200,"method":"GET","path":"/version","query":"","ip":"::1","user-agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36","errors":"","cost":0}
+{"level":"INFO","time":"2023-11-10T18:31:43.701+0800","caller":"logger/logger.go:71","msg":"/version","status":200,"method":"GET","path":"/version","query":"","ip":"::1","user-agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36","errors":"","cost":0}
+{"level":"INFO","time":"2023-11-10T18:31:51.599+0800","caller":"logger/logger.go:71","msg":"/version","status":200,"method":"GET","path":"/version","query":"","ip":"::1","user-agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36","errors":"","cost":0}
+{"level":"INFO","time":"2023-11-10T18:32:51.685+0800","caller":"web_app_v2/main.go:73","msg":"Shutdown Server ..."}
+{"level":"INFO","time":"2023-11-10T18:32:51.685+0800","caller":"web_app_v2/main.go:82","msg":"Server exiting"}
+{"level":"DEBUG","time":"2023-11-10T18:56:41.426+0800","caller":"Reddit_demo/main.go:38","msg":"logger init success..."}
+{"level":"DEBUG","time":"2023-11-10T18:57:09.568+0800","caller":"Reddit_demo/main.go:38","msg":"logger init success..."}
+{"level":"INFO","time":"2023-11-10T18:57:27.988+0800","caller":"Reddit_demo/main.go:83","msg":"Shutdown Server ..."}
+{"level":"INFO","time":"2023-11-10T18:57:27.988+0800","caller":"Reddit_demo/main.go:92","msg":"Server exiting"}
+{"level":"DEBUG","time":"2023-11-10T19:54:01.003+0800","caller":"Reddit_demo/main.go:38","msg":"logger init success..."}
+{"level":"INFO","time":"2023-11-10T19:54:51.167+0800","caller":"logger/logger.go:71","msg":"/","status":404,"method":"POST","path":"/","query":"","ip":"127.0.0.1","user-agent":"PostmanRuntime/7.35.0","errors":"","cost":0}
+{"level":"ERROR","time":"2023-11-10T19:54:59.792+0800","caller":"controllers/user.go:18","msg":"Sign up with invaild params","error":"invalid character '-' in numeric literal"}
+{"level":"INFO","time":"2023-11-10T19:54:59.792+0800","caller":"logger/logger.go:71","msg":"/signup","status":200,"method":"POST","path":"/signup","query":"","ip":"127.0.0.1","user-agent":"PostmanRuntime/7.35.0","errors":"","cost":0.0006203}
+{"level":"ERROR","time":"2023-11-10T19:56:31.536+0800","caller":"controllers/user.go:18","msg":"Sign up with invaild params","error":"invalid character '\"' after object key:value pair"}
+{"level":"INFO","time":"2023-11-10T19:56:31.537+0800","caller":"logger/logger.go:71","msg":"/signup","status":200,"method":"POST","path":"/signup","query":"","ip":"127.0.0.1","user-agent":"PostmanRuntime/7.35.0","errors":"","cost":0.0011475}
+{"level":"ERROR","time":"2023-11-10T19:56:55.316+0800","caller":"controllers/user.go:18","msg":"Sign up with invaild params","error":"invalid character '\"' after object key:value pair"}
+{"level":"INFO","time":"2023-11-10T19:56:55.317+0800","caller":"logger/logger.go:71","msg":"/signup","status":200,"method":"POST","path":"/signup","query":"","ip":"127.0.0.1","user-agent":"PostmanRuntime/7.35.0","errors":"","cost":0.0008536}
+{"level":"ERROR","time":"2023-11-10T19:57:20.544+0800","caller":"controllers/user.go:26","msg":"Sign up with invaild params"}
+{"level":"INFO","time":"2023-11-10T19:57:20.544+0800","caller":"logger/logger.go:71","msg":"/signup","status":200,"method":"POST","path":"/signup","query":"","ip":"127.0.0.1","user-agent":"PostmanRuntime/7.35.0","errors":"","cost":0.0007752}
+{"level":"INFO","time":"2023-11-10T19:57:50.617+0800","caller":"logger/logger.go:71","msg":"/signup","status":200,"method":"POST","path":"/signup","query":"","ip":"127.0.0.1","user-agent":"PostmanRuntime/7.35.0","errors":"","cost":0}
+{"level":"INFO","time":"2023-11-10T19:58:10.267+0800","caller":"logger/logger.go:71","msg":"/signup","status":200,"method":"POST","path":"/signup","query":"","ip":"127.0.0.1","user-agent":"PostmanRuntime/7.35.0","errors":"","cost":0}
+{"level":"INFO","time":"2023-11-10T21:12:23.419+0800","caller":"Reddit_demo/main.go:83","msg":"Shutdown Server ..."}
+{"level":"INFO","time":"2023-11-10T21:12:23.419+0800","caller":"Reddit_demo/main.go:92","msg":"Server exiting"}
+{"level":"DEBUG","time":"2023-11-11T11:07:03.295+0800","caller":"Reddit_demo/main.go:39","msg":"logger init success..."}
+{"level":"INFO","time":"2023-11-11T11:07:12.565+0800","caller":"logger/logger.go:71","msg":"/signup","status":200,"method":"POST","path":"/signup","query":"","ip":"127.0.0.1","user-agent":"PostmanRuntime/7.35.0","errors":"","cost":0.0007713}
+{"level":"ERROR","time":"2023-11-11T11:07:17.890+0800","caller":"controllers/user.go:21","msg":"Sign up with invaild params","error":"Key: 'ParamSignUP.re_password' Error:Field validation for 're_password' failed on the 'eqfield' tag\nKey: 'ParamSignUP.re_password' Error:Field validation for 're_password' failed on the 'eqfield' tag"}
+{"level":"INFO","time":"2023-11-11T11:07:17.891+0800","caller":"logger/logger.go:71","msg":"/signup","status":200,"method":"POST","path":"/signup","query":"","ip":"127.0.0.1","user-agent":"PostmanRuntime/7.35.0","errors":"","cost":0.0004677}
+{"level":"ERROR","time":"2023-11-11T11:07:25.867+0800","caller":"controllers/user.go:21","msg":"Sign up with invaild params","error":"invalid character '}' looking for beginning of object key string"}
+{"level":"INFO","time":"2023-11-11T11:07:25.868+0800","caller":"logger/logger.go:71","msg":"/signup","status":200,"method":"POST","path":"/signup","query":"","ip":"127.0.0.1","user-agent":"PostmanRuntime/7.35.0","errors":"","cost":0.0001811}
+{"level":"ERROR","time":"2023-11-11T11:07:32.400+0800","caller":"controllers/user.go:21","msg":"Sign up with invaild params","error":"Key: 'ParamSignUP.re_password' Error:Field validation for 're_password' failed on the 'required' tag\nKey: 'ParamSignUP.re_password' Error:Field validation for 're_password' failed on the 'eqfield' tag"}
+{"level":"INFO","time":"2023-11-11T11:07:32.400+0800","caller":"logger/logger.go:71","msg":"/signup","status":200,"method":"POST","path":"/signup","query":"","ip":"127.0.0.1","user-agent":"PostmanRuntime/7.35.0","errors":"","cost":0.000314}
+{"level":"ERROR","time":"2023-11-11T11:07:46.880+0800","caller":"controllers/user.go:21","msg":"Sign up with invaild params","error":"invalid character '\\r' in string literal"}
+{"level":"INFO","time":"2023-11-11T11:07:46.881+0800","caller":"logger/logger.go:71","msg":"/signup","status":200,"method":"POST","path":"/signup","query":"","ip":"127.0.0.1","user-agent":"PostmanRuntime/7.35.0","errors":"","cost":0.0010187}
+{"level":"ERROR","time":"2023-11-11T11:07:55.098+0800","caller":"controllers/user.go:21","msg":"Sign up with invaild params","error":"Key: 'ParamSignUP.re_password' Error:Field validation for 're_password' failed on the 'required' tag\nKey: 'ParamSignUP.re_password' Error:Field validation for 're_password' failed on the 'eqfield' tag"}
+{"level":"INFO","time":"2023-11-11T11:07:55.099+0800","caller":"logger/logger.go:71","msg":"/signup","status":200,"method":"POST","path":"/signup","query":"","ip":"127.0.0.1","user-agent":"PostmanRuntime/7.35.0","errors":"","cost":0.0001729}
+{"level":"ERROR","time":"2023-11-11T11:07:56.245+0800","caller":"controllers/user.go:21","msg":"Sign up with invaild params","error":"Key: 'ParamSignUP.re_password' Error:Field validation for 're_password' failed on the 'required' tag\nKey: 'ParamSignUP.re_password' Error:Field validation for 're_password' failed on the 'eqfield' tag"}
+{"level":"INFO","time":"2023-11-11T11:07:56.246+0800","caller":"logger/logger.go:71","msg":"/signup","status":200,"method":"POST","path":"/signup","query":"","ip":"127.0.0.1","user-agent":"PostmanRuntime/7.35.0","errors":"","cost":0.0010117}
+{"level":"ERROR","time":"2023-11-11T11:08:02.616+0800","caller":"controllers/user.go:21","msg":"Sign up with invaild params","error":"Key: 'ParamSignUP.re_password' Error:Field validation for 're_password' failed on the 'eqfield' tag\nKey: 'ParamSignUP.re_password' Error:Field validation for 're_password' failed on the 'eqfield' tag"}
+{"level":"INFO","time":"2023-11-11T11:08:02.616+0800","caller":"logger/logger.go:71","msg":"/signup","status":200,"method":"POST","path":"/signup","query":"","ip":"127.0.0.1","user-agent":"PostmanRuntime/7.35.0","errors":"","cost":0.0001169}
+{"level":"ERROR","time":"2023-11-11T11:08:09.379+0800","caller":"controllers/user.go:21","msg":"Sign up with invaild params","error":"Key: 'ParamSignUP.password' Error:Field validation for 'password' failed on the 'required' tag\nKey: 'ParamSignUP.re_password' Error:Field validation for 're_password' failed on the 'eqfield' tag\nKey: 'ParamSignUP.re_password' Error:Field validation for 're_password' failed on the 'eqfield' tag"}
+{"level":"INFO","time":"2023-11-11T11:08:09.380+0800","caller":"logger/logger.go:71","msg":"/signup","status":200,"method":"POST","path":"/signup","query":"","ip":"127.0.0.1","user-agent":"PostmanRuntime/7.35.0","errors":"","cost":0.0004252}
+{"level":"ERROR","time":"2023-11-11T11:08:18.661+0800","caller":"controllers/user.go:21","msg":"Sign up with invaild params","error":"Key: 'ParamSignUP.password' Error:Field validation for 'password' failed on the 'required' tag\nKey: 'ParamSignUP.re_password' Error:Field validation for 're_password' failed on the 'required' tag"}
+{"level":"INFO","time":"2023-11-11T11:08:18.661+0800","caller":"logger/logger.go:71","msg":"/signup","status":200,"method":"POST","path":"/signup","query":"","ip":"127.0.0.1","user-agent":"PostmanRuntime/7.35.0","errors":"","cost":0.0003091}
+{"level":"ERROR","time":"2023-11-11T11:11:42.519+0800","caller":"controllers/user.go:21","msg":"Sign up with invaild params","error":"Key: 'ParamSignUP.password' Error:Field validation for 'password' failed on the 'required' tag\nKey: 'ParamSignUP.re_password' Error:Field validation for 're_password' failed on the 'required' tag"}
+{"level":"INFO","time":"2023-11-11T11:11:42.520+0800","caller":"logger/logger.go:71","msg":"/signup","status":200,"method":"POST","path":"/signup","query":"","ip":"127.0.0.1","user-agent":"PostmanRuntime/7.35.0","errors":"","cost":0.0003373}
+{"level":"ERROR","time":"2023-11-11T11:12:01.344+0800","caller":"controllers/user.go:21","msg":"Sign up with invaild params","error":"Key: 'ParamSignUP.re_password' Error:Field validation for 're_password' failed on the 'required' tag\nKey: 'ParamSignUP.re_password' Error:Field validation for 're_password' failed on the 'eqfield' tag"}
+{"level":"INFO","time":"2023-11-11T11:12:01.344+0800","caller":"logger/logger.go:71","msg":"/signup","status":200,"method":"POST","path":"/signup","query":"","ip":"127.0.0.1","user-agent":"PostmanRuntime/7.35.0","errors":"","cost":0.0003122}
+{"level":"INFO","time":"2023-11-11T11:12:31.577+0800","caller":"Reddit_demo/main.go:90","msg":"Shutdown Server ..."}
+{"level":"INFO","time":"2023-11-11T11:12:31.577+0800","caller":"Reddit_demo/main.go:99","msg":"Server exiting"}
+{"level":"DEBUG","time":"2023-11-11T11:12:42.281+0800","caller":"Reddit_demo/main.go:39","msg":"logger init success..."}
+{"level":"ERROR","time":"2023-11-11T11:12:45.091+0800","caller":"controllers/user.go:21","msg":"Sign up with invaild params","error":"Key: 'ParamSignUP.re_password' Error:Field validation for 're_password' failed on the 'required' tag\nKey: 'ParamSignUP.re_password' Error:Field validation for 're_password' failed on the 'eqfield' tag"}
+{"level":"INFO","time":"2023-11-11T11:12:45.091+0800","caller":"logger/logger.go:71","msg":"/signup","status":200,"method":"POST","path":"/signup","query":"","ip":"127.0.0.1","user-agent":"PostmanRuntime/7.35.0","errors":"","cost":0.0002051}
+{"level":"ERROR","time":"2023-11-11T11:12:46.611+0800","caller":"controllers/user.go:21","msg":"Sign up with invaild params","error":"Key: 'ParamSignUP.re_password' Error:Field validation for 're_password' failed on the 'required' tag\nKey: 'ParamSignUP.re_password' Error:Field validation for 're_password' failed on the 'eqfield' tag"}
+{"level":"INFO","time":"2023-11-11T11:12:46.612+0800","caller":"logger/logger.go:71","msg":"/signup","status":200,"method":"POST","path":"/signup","query":"","ip":"127.0.0.1","user-agent":"PostmanRuntime/7.35.0","errors":"","cost":0.0006293}
+{"level":"ERROR","time":"2023-11-11T11:12:47.757+0800","caller":"controllers/user.go:21","msg":"Sign up with invaild params","error":"Key: 'ParamSignUP.re_password' Error:Field validation for 're_password' failed on the 'required' tag\nKey: 'ParamSignUP.re_password' Error:Field validation for 're_password' failed on the 'eqfield' tag"}
+{"level":"INFO","time":"2023-11-11T11:12:47.758+0800","caller":"logger/logger.go:71","msg":"/signup","status":200,"method":"POST","path":"/signup","query":"","ip":"127.0.0.1","user-agent":"PostmanRuntime/7.35.0","errors":"","cost":0.0007166}
+{"level":"ERROR","time":"2023-11-11T11:12:48.563+0800","caller":"controllers/user.go:21","msg":"Sign up with invaild params","error":"Key: 'ParamSignUP.re_password' Error:Field validation for 're_password' failed on the 'required' tag\nKey: 'ParamSignUP.re_password' Error:Field validation for 're_password' failed on the 'eqfield' tag"}
+{"level":"INFO","time":"2023-11-11T11:12:48.564+0800","caller":"logger/logger.go:71","msg":"/signup","status":200,"method":"POST","path":"/signup","query":"","ip":"127.0.0.1","user-agent":"PostmanRuntime/7.35.0","errors":"","cost":0.0006052}
+{"level":"ERROR","time":"2023-11-11T11:12:49.194+0800","caller":"controllers/user.go:21","msg":"Sign up with invaild params","error":"Key: 'ParamSignUP.re_password' Error:Field validation for 're_password' failed on the 'required' tag\nKey: 'ParamSignUP.re_password' Error:Field validation for 're_password' failed on the 'eqfield' tag"}
+{"level":"INFO","time":"2023-11-11T11:12:49.195+0800","caller":"logger/logger.go:71","msg":"/signup","status":200,"method":"POST","path":"/signup","query":"","ip":"127.0.0.1","user-agent":"PostmanRuntime/7.35.0","errors":"","cost":0.0005382}
+{"level":"INFO","time":"2023-11-11T11:13:21.992+0800","caller":"logger/logger.go:71","msg":"/signup","status":200,"method":"POST","path":"/signup","query":"","ip":"127.0.0.1","user-agent":"PostmanRuntime/7.35.0","errors":"","cost":0.0002662}
+{"level":"ERROR","time":"2023-11-11T11:13:31.269+0800","caller":"controllers/user.go:21","msg":"Sign up with invaild params","error":"Key: 'ParamSignUP.re_password' Error:Field validation for 're_password' failed on the 'eqfield' tag"}
+{"level":"INFO","time":"2023-11-11T11:13:31.269+0800","caller":"logger/logger.go:71","msg":"/signup","status":200,"method":"POST","path":"/signup","query":"","ip":"127.0.0.1","user-agent":"PostmanRuntime/7.35.0","errors":"","cost":0.0005343}
+{"level":"ERROR","time":"2023-11-11T11:13:50.556+0800","caller":"controllers/user.go:21","msg":"Sign up with invaild params","error":"Key: 'ParamSignUP.re_password' Error:Field validation for 're_password' failed on the 'required' tag\nKey: 'ParamSignUP.re_password' Error:Field validation for 're_password' failed on the 'eqfield' tag"}
+{"level":"INFO","time":"2023-11-11T11:13:50.556+0800","caller":"logger/logger.go:71","msg":"/signup","status":200,"method":"POST","path":"/signup","query":"","ip":"127.0.0.1","user-agent":"PostmanRuntime/7.35.0","errors":"","cost":0.0002267}
+{"level":"INFO","time":"2023-11-11T11:17:24.083+0800","caller":"Reddit_demo/main.go:90","msg":"Shutdown Server ..."}
+{"level":"INFO","time":"2023-11-11T11:17:24.083+0800","caller":"Reddit_demo/main.go:99","msg":"Server exiting"}
+{"level":"DEBUG","time":"2023-11-11T11:17:49.079+0800","caller":"Reddit_demo/main.go:39","msg":"logger init success..."}
+{"level":"ERROR","time":"2023-11-11T11:17:51.912+0800","caller":"controllers/user.go:21","msg":"Sign up with invaild params","error":"Key: 'ParamSignUP.re_password' Error:Field validation for 're_password' failed on the 'required' tag\nKey: 'ParamSignUP.re_password' Error:Field validation for 're_password' failed on the 'eqfield' tag"}
+{"level":"INFO","time":"2023-11-11T11:17:51.912+0800","caller":"logger/logger.go:71","msg":"/signup","status":200,"method":"POST","path":"/signup","query":"","ip":"127.0.0.1","user-agent":"PostmanRuntime/7.35.0","errors":"","cost":0.0004812}
+{"level":"ERROR","time":"2023-11-11T11:18:01.956+0800","caller":"controllers/user.go:21","msg":"Sign up with invaild params","error":"Key: 'ParamSignUP.password' Error:Field validation for 'password' failed on the 'required' tag\nKey: 'ParamSignUP.re_password' Error:Field validation for 're_password' failed on the 'eqfield' tag\nKey: 'ParamSignUP.re_password' Error:Field validation for 're_password' failed on the 'eqfield' tag"}
+{"level":"INFO","time":"2023-11-11T11:18:01.956+0800","caller":"logger/logger.go:71","msg":"/signup","status":200,"method":"POST","path":"/signup","query":"","ip":"127.0.0.1","user-agent":"PostmanRuntime/7.35.0","errors":"","cost":0.0003898}
+{"level":"INFO","time":"2023-11-11T15:36:01.398+0800","caller":"Reddit_demo/main.go:90","msg":"Shutdown Server ..."}
+{"level":"INFO","time":"2023-11-11T15:36:01.399+0800","caller":"Reddit_demo/main.go:99","msg":"Server exiting"}
+{"level":"DEBUG","time":"2023-11-11T15:36:11.703+0800","caller":"Reddit_demo/main.go:39","msg":"logger init success..."}
+{"level":"INFO","time":"2023-11-11T15:36:19.841+0800","caller":"logger/logger.go:71","msg":"/signup","status":200,"method":"POST","path":"/signup","query":"","ip":"127.0.0.1","user-agent":"PostmanRuntime/7.35.0","errors":"","cost":0.016498}
+{"level":"INFO","time":"2023-11-11T15:36:24.614+0800","caller":"logger/logger.go:71","msg":"/signup","status":200,"method":"POST","path":"/signup","query":"","ip":"127.0.0.1","user-agent":"PostmanRuntime/7.35.0","errors":"","cost":0.0007923}
+{"level":"INFO","time":"2023-11-11T16:12:17.909+0800","caller":"Reddit_demo/main.go:90","msg":"Shutdown Server ..."}
+{"level":"INFO","time":"2023-11-11T16:12:17.909+0800","caller":"Reddit_demo/main.go:99","msg":"Server exiting"}
+{"level":"DEBUG","time":"2023-11-11T16:14:46.962+0800","caller":"Reddit_demo/main.go:39","msg":"logger init success..."}
+{"level":"INFO","time":"2023-11-11T16:14:52.318+0800","caller":"logger/logger.go:82","msg":"/signup","status":200,"method":"POST","path":"/signup","query":"","ip":"127.0.0.1","user-agent":"PostmanRuntime/7.35.0","errors":"","cost":0.0019654}
+{"level":"ERROR","time":"2023-11-11T16:15:46.429+0800","caller":"controllers/user.go:21","msg":"Sign up with invaild params","error":"Key: 'ParamSignUP.re_password' Error:Field validation for 're_password' failed on the 'required' tag\nKey: 'ParamSignUP.re_password' Error:Field validation for 're_password' failed on the 'eqfield' tag"}
+{"level":"INFO","time":"2023-11-11T16:15:46.430+0800","caller":"logger/logger.go:82","msg":"/signup","status":200,"method":"POST","path":"/signup","query":"","ip":"127.0.0.1","user-agent":"PostmanRuntime/7.35.0","errors":"","cost":0.000626}
+{"level":"INFO","time":"2023-11-11T16:15:57.435+0800","caller":"logger/logger.go:82","msg":"/signup","status":200,"method":"POST","path":"/signup","query":"","ip":"127.0.0.1","user-agent":"PostmanRuntime/7.35.0","errors":"","cost":0.0010199}
+{"level":"INFO","time":"2023-11-11T16:16:36.671+0800","caller":"Reddit_demo/main.go:90","msg":"Shutdown Server ..."}
+{"level":"INFO","time":"2023-11-11T16:16:36.672+0800","caller":"Reddit_demo/main.go:99","msg":"Server exiting"}
+{"level":"DEBUG","time":"2023-11-11T16:16:40.207+0800","caller":"Reddit_demo/main.go:39","msg":"logger init success..."}
+{"level":"INFO","time":"2023-11-11T16:16:43.561+0800","caller":"logger/logger.go:82","msg":"/signup","status":200,"method":"POST","path":"/signup","query":"","ip":"127.0.0.1","user-agent":"PostmanRuntime/7.35.0","errors":"","cost":0.0011525}
+{"level":"INFO","time":"2023-11-11T16:16:45.627+0800","caller":"logger/logger.go:82","msg":"/signup","status":200,"method":"POST","path":"/signup","query":"","ip":"127.0.0.1","user-agent":"PostmanRuntime/7.35.0","errors":"","cost":0.0013534}
+{"level":"INFO","time":"2023-11-11T16:17:15.877+0800","caller":"Reddit_demo/main.go:90","msg":"Shutdown Server ..."}
+{"level":"INFO","time":"2023-11-11T16:17:15.877+0800","caller":"Reddit_demo/main.go:99","msg":"Server exiting"}
+{"level":"DEBUG","time":"2023-11-11T16:17:21.988+0800","caller":"Reddit_demo/main.go:39","msg":"logger init success..."}
+{"level":"INFO","time":"2023-11-11T16:17:25.068+0800","caller":"logger/logger.go:82","msg":"/signup","status":200,"method":"POST","path":"/signup","query":"","ip":"127.0.0.1","user-agent":"PostmanRuntime/7.35.0","errors":"","cost":0.0010803}
+{"level":"INFO","time":"2023-11-11T16:17:27.426+0800","caller":"logger/logger.go:82","msg":"/signup","status":200,"method":"POST","path":"/signup","query":"","ip":"127.0.0.1","user-agent":"PostmanRuntime/7.35.0","errors":"","cost":0.0001973}
+{"level":"INFO","time":"2023-11-11T16:27:32.262+0800","caller":"Reddit_demo/main.go:90","msg":"Shutdown Server ..."}
+{"level":"INFO","time":"2023-11-11T16:27:32.262+0800","caller":"Reddit_demo/main.go:99","msg":"Server exiting"}
+{"level":"DEBUG","time":"2023-11-11T16:56:52.349+0800","caller":"Reddit_demo/main.go:39","msg":"logger init success..."}
+{"level":"ERROR","time":"2023-11-11T16:57:07.588+0800","caller":"controllers/user.go:78","msg":"logic.Login failed","error":"missing destination name user_id in *models.ParamLogin"}
+{"level":"INFO","time":"2023-11-11T16:57:07.588+0800","caller":"logger/logger.go:82","msg":"/login","status":200,"method":"POST","path":"/login","query":"","ip":"127.0.0.1","user-agent":"PostmanRuntime/7.35.0","errors":"","cost":0.0026272}
+{"level":"INFO","time":"2023-11-11T16:59:55.658+0800","caller":"Reddit_demo/main.go:90","msg":"Shutdown Server ..."}
+{"level":"INFO","time":"2023-11-11T16:59:55.658+0800","caller":"Reddit_demo/main.go:99","msg":"Server exiting"}
+{"level":"DEBUG","time":"2023-11-11T17:00:02.893+0800","caller":"Reddit_demo/main.go:39","msg":"logger init success..."}
+{"level":"INFO","time":"2023-11-11T17:00:04.840+0800","caller":"logger/logger.go:82","msg":"/login","status":200,"method":"POST","path":"/login","query":"","ip":"127.0.0.1","user-agent":"PostmanRuntime/7.35.0","errors":"","cost":0.0008138}
+{"level":"INFO","time":"2023-11-11T17:00:08.560+0800","caller":"Reddit_demo/main.go:90","msg":"Shutdown Server ..."}
+{"level":"INFO","time":"2023-11-11T17:00:08.561+0800","caller":"Reddit_demo/main.go:99","msg":"Server exiting"}
+{"level":"DEBUG","time":"2023-11-11T17:01:52.896+0800","caller":"Reddit_demo/main.go:39","msg":"logger init success..."}
+{"level":"ERROR","time":"2023-11-11T17:01:59.640+0800","caller":"controllers/user.go:78","msg":"logic.Login failed","username":"xqx","error":"user not exist, please sign up first"}
+{"level":"INFO","time":"2023-11-11T17:01:59.640+0800","caller":"logger/logger.go:82","msg":"/login","status":200,"method":"POST","path":"/login","query":"","ip":"127.0.0.1","user-agent":"PostmanRuntime/7.35.0","errors":"","cost":0.0018555}
+{"level":"INFO","time":"2023-11-11T18:36:43.315+0800","caller":"Reddit_demo/main.go:90","msg":"Shutdown Server ..."}
+{"level":"INFO","time":"2023-11-11T18:36:43.316+0800","caller":"Reddit_demo/main.go:99","msg":"Server exiting"}
+{"level":"DEBUG","time":"2023-11-13T14:33:19.156+0800","caller":"Reddit_demo/main.go:39","msg":"logger init success..."}
+{"level":"ERROR","time":"2023-11-13T14:33:35.788+0800","caller":"controllers/user.go:74","msg":"logic.Login failed","username":"xqx","error":"user not exist"}
+{"level":"INFO","time":"2023-11-13T14:33:35.788+0800","caller":"logger/logger.go:82","msg":"/login","status":200,"method":"POST","path":"/login","query":"","ip":"127.0.0.1","user-agent":"PostmanRuntime/7.35.0","errors":"","cost":0.0037846}
+{"level":"INFO","time":"2023-11-13T14:33:45.839+0800","caller":"logger/logger.go:82","msg":"/login","status":200,"method":"POST","path":"/login","query":"","ip":"127.0.0.1","user-agent":"PostmanRuntime/7.35.0","errors":"","cost":0.0011787}
+{"level":"INFO","time":"2023-11-13T14:40:47.702+0800","caller":"logger/logger.go:82","msg":"/login","status":200,"method":"POST","path":"/login","query":"","ip":"127.0.0.1","user-agent":"PostmanRuntime/7.35.0","errors":"","cost":0.0011085}
+{"level":"INFO","time":"2023-11-13T14:40:54.481+0800","caller":"Reddit_demo/main.go:90","msg":"Shutdown Server ..."}
+{"level":"INFO","time":"2023-11-13T14:40:54.482+0800","caller":"Reddit_demo/main.go:99","msg":"Server exiting"}
+{"level":"DEBUG","time":"2023-11-13T14:41:05.645+0800","caller":"Reddit_demo/main.go:39","msg":"logger init success..."}
+{"level":"INFO","time":"2023-11-13T14:41:08.781+0800","caller":"logger/logger.go:82","msg":"/login","status":200,"method":"POST","path":"/login","query":"","ip":"127.0.0.1","user-agent":"PostmanRuntime/7.35.0","errors":"","cost":0.0021252}
+{"level":"INFO","time":"2023-11-13T14:42:25.787+0800","caller":"Reddit_demo/main.go:90","msg":"Shutdown Server ..."}
+{"level":"INFO","time":"2023-11-13T14:42:25.789+0800","caller":"Reddit_demo/main.go:99","msg":"Server exiting"}
+{"level":"DEBUG","time":"2023-11-13T14:42:34.666+0800","caller":"Reddit_demo/main.go:39","msg":"logger init success..."}
+{"level":"INFO","time":"2023-11-13T14:42:41.022+0800","caller":"logger/logger.go:82","msg":"/login","status":200,"method":"POST","path":"/login","query":"","ip":"127.0.0.1","user-agent":"PostmanRuntime/7.35.0","errors":"","cost":0.0008586}
+{"level":"INFO","time":"2023-11-13T14:43:54.193+0800","caller":"Reddit_demo/main.go:90","msg":"Shutdown Server ..."}
+{"level":"INFO","time":"2023-11-13T14:43:54.193+0800","caller":"Reddit_demo/main.go:99","msg":"Server exiting"}
+{"level":"DEBUG","time":"2023-11-13T14:46:11.739+0800","caller":"Reddit_demo/main.go:39","msg":"logger init success..."}
+{"level":"INFO","time":"2023-11-13T14:46:14.876+0800","caller":"logger/logger.go:82","msg":"/login","status":200,"method":"POST","path":"/login","query":"","ip":"127.0.0.1","user-agent":"PostmanRuntime/7.35.0","errors":"","cost":0.0010919}
+{"level":"INFO","time":"2023-11-13T14:48:31.164+0800","caller":"logger/logger.go:82","msg":"/login","status":200,"method":"POST","path":"/login","query":"","ip":"127.0.0.1","user-agent":"PostmanRuntime/7.35.0","errors":"","cost":0.001188}
+{"level":"ERROR","time":"2023-11-13T14:50:36.756+0800","caller":"controllers/user.go:23","msg":"Sign up with invaild params","error":"Key: 'ParamSignUP.re_password' Error:Field validation for 're_password' failed on the 'required' tag\nKey: 'ParamSignUP.re_password' Error:Field validation for 're_password' failed on the 'eqfield' tag"}
+{"level":"INFO","time":"2023-11-13T14:50:36.756+0800","caller":"logger/logger.go:82","msg":"/signup","status":200,"method":"POST","path":"/signup","query":"","ip":"127.0.0.1","user-agent":"PostmanRuntime/7.35.0","errors":"","cost":0}
+{"level":"ERROR","time":"2023-11-13T14:50:48.357+0800","caller":"controllers/user.go:23","msg":"Sign up with invaild params","error":"Key: 'ParamSignUP.re_password' Error:Field validation for 're_password' failed on the 'required' tag\nKey: 'ParamSignUP.re_password' Error:Field validation for 're_password' failed on the 'eqfield' tag"}
+{"level":"INFO","time":"2023-11-13T14:50:48.358+0800","caller":"logger/logger.go:82","msg":"/signup","status":200,"method":"POST","path":"/signup","query":"","ip":"127.0.0.1","user-agent":"PostmanRuntime/7.35.0","errors":"","cost":0.0010005}
+{"level":"INFO","time":"2023-11-13T14:51:23.346+0800","caller":"logger/logger.go:82","msg":"/signup","status":200,"method":"POST","path":"/signup","query":"","ip":"127.0.0.1","user-agent":"PostmanRuntime/7.35.0","errors":"","cost":0.0025928}
+{"level":"INFO","time":"2023-11-13T14:52:00.942+0800","caller":"logger/logger.go:82","msg":"/signup","status":200,"method":"POST","path":"/signup","query":"","ip":"127.0.0.1","user-agent":"PostmanRuntime/7.35.0","errors":"","cost":0.0025092}
+{"level":"INFO","time":"2023-11-13T14:52:31.326+0800","caller":"logger/logger.go:82","msg":"/login","status":200,"method":"POST","path":"/login","query":"","ip":"127.0.0.1","user-agent":"PostmanRuntime/7.35.0","errors":"","cost":0.0011668}
+{"level":"INFO","time":"2023-11-13T14:53:01.630+0800","caller":"Reddit_demo/main.go:90","msg":"Shutdown Server ..."}
+{"level":"INFO","time":"2023-11-13T14:53:01.630+0800","caller":"Reddit_demo/main.go:99","msg":"Server exiting"}
+{"level":"DEBUG","time":"2023-11-13T14:53:09.254+0800","caller":"Reddit_demo/main.go:39","msg":"logger init success..."}
+{"level":"INFO","time":"2023-11-13T14:53:12.301+0800","caller":"logger/logger.go:82","msg":"/login","status":200,"method":"POST","path":"/login","query":"","ip":"127.0.0.1","user-agent":"PostmanRuntime/7.35.0","errors":"","cost":0.0012481}
+{"level":"INFO","time":"2023-11-13T14:53:34.434+0800","caller":"Reddit_demo/main.go:90","msg":"Shutdown Server ..."}
+{"level":"INFO","time":"2023-11-13T14:53:34.435+0800","caller":"Reddit_demo/main.go:99","msg":"Server exiting"}
+{"level":"DEBUG","time":"2023-11-13T21:26:28.389+0800","caller":"Reddit_demo/main.go:39","msg":"logger init success..."}
+{"level":"INFO","time":"2023-11-13T21:26:41.581+0800","caller":"Reddit_demo/main.go:90","msg":"Shutdown Server ..."}
+{"level":"INFO","time":"2023-11-13T21:26:41.581+0800","caller":"Reddit_demo/main.go:99","msg":"Server exiting"}
+{"level":"DEBUG","time":"2023-11-13T22:15:11.535+0800","caller":"Reddit_demo/main.go:39","msg":"logger init success..."}
+{"level":"INFO","time":"2023-11-13T22:15:36.933+0800","caller":"logger/logger.go:82","msg":"/api/v1/community","status":200,"method":"GET","path":"/api/v1/community","query":"","ip":"127.0.0.1","user-agent":"PostmanRuntime/7.35.0","errors":"","cost":0}
+{"level":"INFO","time":"2023-11-13T22:16:22.708+0800","caller":"logger/logger.go:82","msg":"/api/v1/login","status":200,"method":"POST","path":"/api/v1/login","query":"","ip":"127.0.0.1","user-agent":"PostmanRuntime/7.35.0","errors":"","cost":0.0021453}
+{"level":"INFO","time":"2023-11-13T22:18:47.869+0800","caller":"logger/logger.go:82","msg":"/api/v1/community","status":200,"method":"POST","path":"/api/v1/community","query":"","ip":"127.0.0.1","user-agent":"PostmanRuntime/7.35.0","errors":"","cost":0}
+{"level":"INFO","time":"2023-11-13T22:19:01.603+0800","caller":"logger/logger.go:82","msg":"/api/v1/community","status":200,"method":"GET","path":"/api/v1/community","query":"","ip":"127.0.0.1","user-agent":"PostmanRuntime/7.35.0","errors":"","cost":0.003997}
+{"level":"INFO","time":"2023-11-13T22:19:34.464+0800","caller":"Reddit_demo/main.go:90","msg":"Shutdown Server ..."}
+{"level":"INFO","time":"2023-11-13T22:19:34.465+0800","caller":"Reddit_demo/main.go:99","msg":"Server exiting"}
+{"level":"DEBUG","time":"2023-11-14T09:36:18.290+0800","caller":"Reddit_demo/main.go:39","msg":"logger init success..."}
+{"level":"INFO","time":"2023-11-14T09:36:22.106+0800","caller":"logger/logger.go:82","msg":"/api/v1/login","status":200,"method":"POST","path":"/api/v1/login","query":"","ip":"127.0.0.1","user-agent":"PostmanRuntime/7.35.0","errors":"","cost":0.0020646}
+{"level":"INFO","time":"2023-11-14T09:36:54.956+0800","caller":"logger/logger.go:82","msg":"/api/v1/community/2","status":200,"method":"POST","path":"/api/v1/community/2","query":"","ip":"127.0.0.1","user-agent":"PostmanRuntime/7.35.0","errors":"","cost":0}
+{"level":"INFO","time":"2023-11-14T09:37:00.354+0800","caller":"logger/logger.go:82","msg":"/api/v1/community/2","status":200,"method":"GET","path":"/api/v1/community/2","query":"","ip":"127.0.0.1","user-agent":"PostmanRuntime/7.35.0","errors":"","cost":0.002702}
+{"level":"INFO","time":"2023-11-14T09:37:12.233+0800","caller":"Reddit_demo/main.go:90","msg":"Shutdown Server ..."}
+{"level":"INFO","time":"2023-11-14T09:37:12.233+0800","caller":"Reddit_demo/main.go:99","msg":"Server exiting"}
+{"level":"DEBUG","time":"2023-11-14T11:03:18.955+0800","caller":"Reddit_demo/main.go:39","msg":"logger init success..."}
+{"level":"INFO","time":"2023-11-14T11:03:42.906+0800","caller":"logger/logger.go:82","msg":"/api/v1/login","status":200,"method":"POST","path":"/api/v1/login","query":"","ip":"127.0.0.1","user-agent":"PostmanRuntime/7.35.0","errors":"","cost":0.0009986}
+{"level":"INFO","time":"2023-11-14T11:05:24.033+0800","caller":"logger/logger.go:82","msg":"/api/v1/post","status":200,"method":"POST","path":"/api/v1/post","query":"","ip":"127.0.0.1","user-agent":"PostmanRuntime/7.35.0","errors":"","cost":0.0109742}
+{"level":"INFO","time":"2023-11-14T11:05:40.783+0800","caller":"Reddit_demo/main.go:90","msg":"Shutdown Server ..."}
+{"level":"INFO","time":"2023-11-14T11:05:40.783+0800","caller":"Reddit_demo/main.go:99","msg":"Server exiting"}
+{"level":"DEBUG","time":"2023-11-14T19:14:43.803+0800","caller":"Reddit_demo/main.go:39","msg":"logger init success..."}
+{"level":"DEBUG","time":"2023-11-14T19:15:09.020+0800","caller":"Reddit_demo/main.go:39","msg":"logger init success..."}
+{"level":"INFO","time":"2023-11-14T19:15:17.016+0800","caller":"logger/logger.go:82","msg":"/api/v1/login","status":200,"method":"POST","path":"/api/v1/login","query":"","ip":"127.0.0.1","user-agent":"PostmanRuntime/7.35.0","errors":"","cost":0.0010715}
+{"level":"INFO","time":"2023-11-14T19:15:40.705+0800","caller":"logger/logger.go:82","msg":"/api/v1/post/1","status":200,"method":"POST","path":"/api/v1/post/1","query":"","ip":"127.0.0.1","user-agent":"PostmanRuntime/7.35.0","errors":"","cost":0}
+{"level":"INFO","time":"2023-11-14T19:16:23.881+0800","caller":"logger/logger.go:82","msg":"/api/v1/post/1496208996569088","status":200,"method":"POST","path":"/api/v1/post/1496208996569088","query":"","ip":"127.0.0.1","user-agent":"PostmanRuntime/7.35.0","errors":"","cost":0}
+{"level":"INFO","time":"2023-11-14T19:16:25.527+0800","caller":"logger/logger.go:82","msg":"/api/v1/post/1496208996569088","status":200,"method":"POST","path":"/api/v1/post/1496208996569088","query":"","ip":"127.0.0.1","user-agent":"PostmanRuntime/7.35.0","errors":"","cost":0}
+{"level":"INFO","time":"2023-11-14T19:16:46.894+0800","caller":"logger/logger.go:82","msg":"/api/v1/post/1496208996569088","status":200,"method":"GET","path":"/api/v1/post/1496208996569088","query":"","ip":"127.0.0.1","user-agent":"PostmanRuntime/7.35.0","errors":"","cost":0.0009195}
+{"level":"INFO","time":"2023-11-14T19:22:30.581+0800","caller":"Reddit_demo/main.go:90","msg":"Shutdown Server ..."}
+{"level":"INFO","time":"2023-11-14T19:22:30.581+0800","caller":"Reddit_demo/main.go:99","msg":"Server exiting"}
+{"level":"DEBUG","time":"2023-11-14T19:22:31.985+0800","caller":"Reddit_demo/main.go:39","msg":"logger init success..."}
+{"level":"INFO","time":"2023-11-14T19:22:34.715+0800","caller":"Reddit_demo/main.go:90","msg":"Shutdown Server ..."}
+{"level":"INFO","time":"2023-11-14T19:22:34.715+0800","caller":"Reddit_demo/main.go:99","msg":"Server exiting"}
+{"level":"DEBUG","time":"2023-11-14T19:22:42.001+0800","caller":"Reddit_demo/main.go:39","msg":"logger init success..."}
+{"level":"INFO","time":"2023-11-14T19:22:45.391+0800","caller":"logger/logger.go:82","msg":"/api/v1/post/1496208996569088","status":200,"method":"GET","path":"/api/v1/post/1496208996569088","query":"","ip":"127.0.0.1","user-agent":"PostmanRuntime/7.35.0","errors":"","cost":0.0014818}
+{"level":"INFO","time":"2023-11-14T19:29:04.980+0800","caller":"logger/logger.go:82","msg":"/api/v1/community/1","status":200,"method":"GET","path":"/api/v1/community/1","query":"","ip":"127.0.0.1","user-agent":"PostmanRuntime/7.35.0","errors":"","cost":0.0037207}
+{"level":"INFO","time":"2023-11-14T19:29:52.282+0800","caller":"Reddit_demo/main.go:90","msg":"Shutdown Server ..."}
+{"level":"INFO","time":"2023-11-14T19:29:52.282+0800","caller":"Reddit_demo/main.go:99","msg":"Server exiting"}
+{"level":"DEBUG","time":"2023-11-14T19:30:00.590+0800","caller":"Reddit_demo/main.go:39","msg":"logger init success..."}
+{"level":"INFO","time":"2023-11-14T19:30:20.055+0800","caller":"logger/logger.go:82","msg":"/api/v1/post/1496208996569088","status":200,"method":"GET","path":"/api/v1/post/1496208996569088","query":"","ip":"127.0.0.1","user-agent":"PostmanRuntime/7.35.0","errors":"","cost":0.0011613}
+{"level":"INFO","time":"2023-11-14T21:04:57.850+0800","caller":"Reddit_demo/main.go:90","msg":"Shutdown Server ..."}
+{"level":"INFO","time":"2023-11-14T21:04:57.852+0800","caller":"Reddit_demo/main.go:99","msg":"Server exiting"}
+{"level":"DEBUG","time":"2023-11-14T22:22:26.420+0800","caller":"Reddit_demo/main.go:39","msg":"logger init success..."}
+{"level":"INFO","time":"2023-11-14T22:22:29.663+0800","caller":"logger/logger.go:82","msg":"/api/v1/post/1496208996569088","status":200,"method":"GET","path":"/api/v1/post/1496208996569088","query":"","ip":"127.0.0.1","user-agent":"PostmanRuntime/7.35.0","errors":"","cost":0.0047382}
+{"level":"INFO","time":"2023-11-14T22:24:28.205+0800","caller":"Reddit_demo/main.go:90","msg":"Shutdown Server ..."}
+{"level":"INFO","time":"2023-11-14T22:24:28.205+0800","caller":"Reddit_demo/main.go:99","msg":"Server exiting"}
+{"level":"DEBUG","time":"2023-11-14T22:24:36.704+0800","caller":"Reddit_demo/main.go:39","msg":"logger init success..."}
+{"level":"INFO","time":"2023-11-14T22:24:39.431+0800","caller":"logger/logger.go:82","msg":"/api/v1/post/1496208996569088","status":200,"method":"GET","path":"/api/v1/post/1496208996569088","query":"","ip":"127.0.0.1","user-agent":"PostmanRuntime/7.35.0","errors":"","cost":0.0025884}
+{"level":"INFO","time":"2023-11-14T22:28:16.075+0800","caller":"Reddit_demo/main.go:90","msg":"Shutdown Server ..."}
+{"level":"INFO","time":"2023-11-14T22:28:16.076+0800","caller":"Reddit_demo/main.go:99","msg":"Server exiting"}
+{"level":"DEBUG","time":"2023-11-15T14:39:55.133+0800","caller":"Reddit_demo/main.go:39","msg":"logger init success..."}
+{"level":"INFO","time":"2023-11-15T14:40:02.072+0800","caller":"logger/logger.go:82","msg":"/api/v1/login","status":200,"method":"GET","path":"/api/v1/login","query":"","ip":"127.0.0.1","user-agent":"PostmanRuntime/7.35.0","errors":"","cost":0}
+{"level":"INFO","time":"2023-11-15T14:40:52.540+0800","caller":"logger/logger.go:82","msg":"/api/v1/login","status":200,"method":"GET","path":"/api/v1/login","query":"","ip":"127.0.0.1","user-agent":"PostmanRuntime/7.35.0","errors":"","cost":0}
+{"level":"INFO","time":"2023-11-15T14:42:24.390+0800","caller":"logger/logger.go:82","msg":"/api/v1/login","status":200,"method":"POST","path":"/api/v1/login","query":"","ip":"127.0.0.1","user-agent":"PostmanRuntime/7.35.0","errors":"","cost":0.0023152}
+{"level":"INFO","time":"2023-11-15T14:44:27.138+0800","caller":"logger/logger.go:82","msg":"/api/post","status":200,"method":"POST","path":"/api/post","query":"","ip":"127.0.0.1","user-agent":"PostmanRuntime/7.35.0","errors":"","cost":0}
+{"level":"INFO","time":"2023-11-15T14:48:02.804+0800","caller":"logger/logger.go:82","msg":"/api/post","status":200,"method":"POST","path":"/api/post","query":"","ip":"127.0.0.1","user-agent":"PostmanRuntime/7.35.0","errors":"","cost":0}
+{"level":"INFO","time":"2023-11-15T14:48:04.322+0800","caller":"logger/logger.go:82","msg":"/api/post","status":200,"method":"POST","path":"/api/post","query":"","ip":"127.0.0.1","user-agent":"PostmanRuntime/7.35.0","errors":"","cost":0}
+{"level":"INFO","time":"2023-11-15T14:48:42.831+0800","caller":"Reddit_demo/main.go:90","msg":"Shutdown Server ..."}
+{"level":"INFO","time":"2023-11-15T14:48:42.831+0800","caller":"Reddit_demo/main.go:99","msg":"Server exiting"}
+{"level":"DEBUG","time":"2023-11-15T14:48:44.956+0800","caller":"Reddit_demo/main.go:39","msg":"logger init success..."}
+{"level":"INFO","time":"2023-11-15T14:48:47.994+0800","caller":"Reddit_demo/main.go:90","msg":"Shutdown Server ..."}
+{"level":"INFO","time":"2023-11-15T14:48:47.994+0800","caller":"Reddit_demo/main.go:99","msg":"Server exiting"}
+{"level":"DEBUG","time":"2023-11-15T14:48:55.412+0800","caller":"Reddit_demo/main.go:39","msg":"logger init success..."}
+{"level":"INFO","time":"2023-11-15T14:49:01.112+0800","caller":"logger/logger.go:82","msg":"/api/post","status":200,"method":"POST","path":"/api/post","query":"","ip":"127.0.0.1","user-agent":"PostmanRuntime/7.35.0","errors":"","cost":0}
+{"level":"INFO","time":"2023-11-15T14:49:50.996+0800","caller":"logger/logger.go:82","msg":"/api/login","status":200,"method":"POST","path":"/api/login","query":"","ip":"127.0.0.1","user-agent":"PostmanRuntime/7.35.0","errors":"","cost":0}
+{"level":"ERROR","time":"2023-11-15T14:50:00.101+0800","caller":"controllers/user.go:61","msg":"Login with invaild params","error":"json: cannot unmarshal number into Go struct field ParamLogin.password of type string"}
+{"level":"INFO","time":"2023-11-15T14:50:00.101+0800","caller":"logger/logger.go:82","msg":"/api/v1/login","status":200,"method":"POST","path":"/api/v1/login","query":"","ip":"127.0.0.1","user-agent":"PostmanRuntime/7.35.0","errors":"","cost":0.0006795}
+{"level":"INFO","time":"2023-11-15T14:50:15.558+0800","caller":"logger/logger.go:82","msg":"/api/login","status":200,"method":"POST","path":"/api/login","query":"","ip":"127.0.0.1","user-agent":"PostmanRuntime/7.35.0","errors":"","cost":0}
+{"level":"INFO","time":"2023-11-15T14:50:24.021+0800","caller":"logger/logger.go:82","msg":"/api/login","status":200,"method":"POST","path":"/api/login","query":"","ip":"127.0.0.1","user-agent":"PostmanRuntime/7.35.0","errors":"","cost":0}
+{"level":"INFO","time":"2023-11-15T14:52:03.182+0800","caller":"logger/logger.go:82","msg":"/api/v1/login","status":200,"method":"POST","path":"/api/v1/login","query":"","ip":"127.0.0.1","user-agent":"PostmanRuntime/7.35.0","errors":"","cost":0.0012352}
+{"level":"DEBUG","time":"2023-11-15T14:53:48.697+0800","caller":"controllers/post.go:19","msg":"c.ShouldBindJSON() err","err":"Key: 'Post.community_id' Error:Field validation for 'community_id' failed on the 'required' tag"}
+{"level":"ERROR","time":"2023-11-15T14:53:48.697+0800","caller":"controllers/post.go:20","msg":"create post with invaild param"}
+{"level":"INFO","time":"2023-11-15T14:53:48.697+0800","caller":"logger/logger.go:82","msg":"/api/v1/post","status":200,"method":"POST","path":"/api/v1/post","query":"","ip":"127.0.0.1","user-agent":"PostmanRuntime/7.35.0","errors":"","cost":0.0005824}
+{"level":"INFO","time":"2023-11-15T14:53:58.532+0800","caller":"logger/logger.go:82","msg":"/api/v1/post","status":200,"method":"POST","path":"/api/v1/post","query":"","ip":"127.0.0.1","user-agent":"PostmanRuntime/7.35.0","errors":"","cost":0.0074465}
+{"level":"INFO","time":"2023-11-15T14:54:55.741+0800","caller":"logger/logger.go:82","msg":"/api/v1/post/1","status":200,"method":"POST","path":"/api/v1/post/1","query":"","ip":"127.0.0.1","user-agent":"PostmanRuntime/7.35.0","errors":"","cost":0}
+{"level":"INFO","time":"2023-11-15T14:55:07.689+0800","caller":"logger/logger.go:82","msg":"/api/v1/post/1496208996569088","status":200,"method":"POST","path":"/api/v1/post/1496208996569088","query":"","ip":"127.0.0.1","user-agent":"PostmanRuntime/7.35.0","errors":"","cost":0}
+{"level":"INFO","time":"2023-11-15T14:55:24.573+0800","caller":"logger/logger.go:82","msg":"/api/v1/post/1496208996569088","status":200,"method":"POST","path":"/api/v1/post/1496208996569088","query":"","ip":"127.0.0.1","user-agent":"PostmanRuntime/7.35.0","errors":"","cost":0}
+{"level":"INFO","time":"2023-11-15T14:57:48.094+0800","caller":"logger/logger.go:82","msg":"/api/v1/post/1916119652765696","status":200,"method":"GET","path":"/api/v1/post/1916119652765696","query":"","ip":"127.0.0.1","user-agent":"PostmanRuntime/7.35.0","errors":"","cost":0.0049585}
+{"level":"INFO","time":"2023-11-15T14:58:50.643+0800","caller":"Reddit_demo/main.go:90","msg":"Shutdown Server ..."}
+{"level":"INFO","time":"2023-11-15T14:58:50.643+0800","caller":"Reddit_demo/main.go:99","msg":"Server exiting"}
+{"level":"DEBUG","time":"2023-11-15T14:58:55.115+0800","caller":"Reddit_demo/main.go:39","msg":"logger init success..."}
+{"level":"INFO","time":"2023-11-15T14:59:07.212+0800","caller":"logger/logger.go:82","msg":"/api/v1/posts/","status":200,"method":"GET","path":"/api/v1/posts/","query":"","ip":"127.0.0.1","user-agent":"PostmanRuntime/7.35.0","errors":"","cost":0.0034259}
+{"level":"INFO","time":"2023-11-15T14:59:47.183+0800","caller":"Reddit_demo/main.go:90","msg":"Shutdown Server ..."}
+{"level":"INFO","time":"2023-11-15T14:59:47.184+0800","caller":"Reddit_demo/main.go:99","msg":"Server exiting"}
+{"level":"DEBUG","time":"2023-11-15T21:03:11.159+0800","caller":"Reddit_demo/main.go:39","msg":"logger init success..."}
+{"level":"INFO","time":"2023-11-15T21:04:36.560+0800","caller":"logger/logger.go:82","msg":"/api/v1/vote","status":200,"method":"POST","path":"/api/v1/vote","query":"","ip":"127.0.0.1","user-agent":"PostmanRuntime/7.35.0","errors":"","cost":0}
+{"level":"INFO","time":"2023-11-15T21:04:55.638+0800","caller":"Reddit_demo/main.go:90","msg":"Shutdown Server ..."}
+{"level":"INFO","time":"2023-11-15T21:04:55.639+0800","caller":"Reddit_demo/main.go:99","msg":"Server exiting"}
+{"level":"DEBUG","time":"2023-11-15T21:04:57.254+0800","caller":"Reddit_demo/main.go:39","msg":"logger init success..."}
+{"level":"INFO","time":"2023-11-15T21:05:00.040+0800","caller":"logger/logger.go:82","msg":"/api/v1/vote","status":200,"method":"POST","path":"/api/v1/vote","query":"","ip":"127.0.0.1","user-agent":"PostmanRuntime/7.35.0","errors":"","cost":0}
+{"level":"INFO","time":"2023-11-15T21:05:28.654+0800","caller":"Reddit_demo/main.go:90","msg":"Shutdown Server ..."}
+{"level":"INFO","time":"2023-11-15T21:05:28.654+0800","caller":"Reddit_demo/main.go:99","msg":"Server exiting"}
+{"level":"DEBUG","time":"2023-11-15T21:05:31.574+0800","caller":"Reddit_demo/main.go:39","msg":"logger init success..."}
+{"level":"INFO","time":"2023-11-15T21:05:34.691+0800","caller":"logger/logger.go:82","msg":"/api/v1/vote","status":200,"method":"POST","path":"/api/v1/vote","query":"","ip":"127.0.0.1","user-agent":"PostmanRuntime/7.35.0","errors":"","cost":0}
+{"level":"INFO","time":"2023-11-15T21:06:31.537+0800","caller":"logger/logger.go:82","msg":"/api/v1/vote","status":200,"method":"POST","path":"/api/v1/vote","query":"","ip":"127.0.0.1","user-agent":"PostmanRuntime/7.35.0","errors":"","cost":0}
+{"level":"INFO","time":"2023-11-15T21:06:33.373+0800","caller":"logger/logger.go:82","msg":"/api/v1/vote","status":200,"method":"POST","path":"/api/v1/vote","query":"","ip":"127.0.0.1","user-agent":"PostmanRuntime/7.35.0","errors":"","cost":0}
+{"level":"INFO","time":"2023-11-15T21:06:38.087+0800","caller":"logger/logger.go:82","msg":"/api/v1/vote","status":200,"method":"POST","path":"/api/v1/vote","query":"","ip":"127.0.0.1","user-agent":"PostmanRuntime/7.35.0","errors":"","cost":0}
+{"level":"INFO","time":"2023-11-15T21:06:45.651+0800","caller":"logger/logger.go:82","msg":"/api/v1/vote","status":200,"method":"POST","path":"/api/v1/vote","query":"","ip":"127.0.0.1","user-agent":"PostmanRuntime/7.35.0","errors":"","cost":0}
+{"level":"INFO","time":"2023-11-15T21:08:25.248+0800","caller":"Reddit_demo/main.go:90","msg":"Shutdown Server ..."}
+{"level":"INFO","time":"2023-11-15T21:08:25.248+0800","caller":"Reddit_demo/main.go:99","msg":"Server exiting"}
+{"level":"DEBUG","time":"2023-11-15T21:08:26.149+0800","caller":"Reddit_demo/main.go:39","msg":"logger init success..."}
+{"level":"INFO","time":"2023-11-15T21:08:28.882+0800","caller":"Reddit_demo/main.go:90","msg":"Shutdown Server ..."}
+{"level":"INFO","time":"2023-11-15T21:08:28.882+0800","caller":"Reddit_demo/main.go:99","msg":"Server exiting"}
+{"level":"DEBUG","time":"2023-11-15T21:08:36.027+0800","caller":"Reddit_demo/main.go:39","msg":"logger init success..."}
+{"level":"INFO","time":"2023-11-15T21:08:38.440+0800","caller":"logger/logger.go:82","msg":"/api/v1/vote","status":200,"method":"POST","path":"/api/v1/vote","query":"","ip":"127.0.0.1","user-agent":"PostmanRuntime/7.35.0","errors":"","cost":0}
+{"level":"INFO","time":"2023-11-15T21:12:21.978+0800","caller":"Reddit_demo/main.go:90","msg":"Shutdown Server ..."}
+{"level":"INFO","time":"2023-11-15T21:12:21.978+0800","caller":"Reddit_demo/main.go:99","msg":"Server exiting"}
+{"level":"DEBUG","time":"2023-11-16T09:12:20.567+0800","caller":"Reddit_demo/main.go:39","msg":"logger init success..."}
+{"level":"DEBUG","time":"2023-11-16T09:12:23.171+0800","caller":"logic/vote.go:21","msg":"VoteForPost","userID":477227217063936,"postID":"1496208996569088","direction":1}
+{"level":"ERROR","time":"2023-11-16T09:12:23.171+0800","caller":"controllers/vote.go:36","msg":"logic.voteForPost() failed","error":"投票时间已过"}
+{"level":"INFO","time":"2023-11-16T09:12:23.171+0800","caller":"logger/logger.go:82","msg":"/api/v1/vote","status":200,"method":"POST","path":"/api/v1/vote","query":"","ip":"127.0.0.1","user-agent":"PostmanRuntime/7.35.0","errors":"","cost":0.0010239}
+{"level":"INFO","time":"2023-11-16T09:13:46.402+0800","caller":"logger/logger.go:82","msg":"/api/v1/post","status":200,"method":"POST","path":"/api/v1/post","query":"","ip":"127.0.0.1","user-agent":"PostmanRuntime/7.35.0","errors":"","cost":0.0075708}
+{"level":"INFO","time":"2023-11-16T09:15:11.486+0800","caller":"logger/logger.go:82","msg":"/api/v1/vote","status":200,"method":"POST","path":"/api/v1/vote","query":"","ip":"127.0.0.1","user-agent":"PostmanRuntime/7.35.0","errors":"","cost":0}
+{"level":"DEBUG","time":"2023-11-16T09:15:21.249+0800","caller":"logic/vote.go:21","msg":"VoteForPost","userID":477227217063936,"postID":"2192892839858176","direction":1}
+{"level":"ERROR","time":"2023-11-16T09:15:21.249+0800","caller":"controllers/vote.go:36","msg":"logic.voteForPost() failed","error":"投票时间已过"}
+{"level":"INFO","time":"2023-11-16T09:15:21.250+0800","caller":"logger/logger.go:82","msg":"/api/v1/vote","status":200,"method":"POST","path":"/api/v1/vote","query":"","ip":"127.0.0.1","user-agent":"PostmanRuntime/7.35.0","errors":"","cost":0.0016457}
+{"level":"INFO","time":"2023-11-16T09:24:06.627+0800","caller":"Reddit_demo/main.go:90","msg":"Shutdown Server ..."}
+{"level":"INFO","time":"2023-11-16T09:24:06.627+0800","caller":"Reddit_demo/main.go:99","msg":"Server exiting"}
+{"level":"DEBUG","time":"2023-11-16T09:24:29.692+0800","caller":"Reddit_demo/main.go:39","msg":"logger init success..."}
+{"level":"DEBUG","time":"2023-11-16T09:24:32.115+0800","caller":"logic/vote.go:21","msg":"VoteForPost","userID":477227217063936,"postID":"2192892839858176","direction":1}
+{"level":"ERROR","time":"2023-11-16T09:24:32.116+0800","caller":"controllers/vote.go:36","msg":"logic.voteForPost() failed","error":"投票时间已过"}
+{"level":"INFO","time":"2023-11-16T09:24:32.116+0800","caller":"logger/logger.go:82","msg":"/api/v1/vote","status":200,"method":"POST","path":"/api/v1/vote","query":"","ip":"127.0.0.1","user-agent":"PostmanRuntime/7.35.0","errors":"","cost":0.0012836}
+{"level":"INFO","time":"2023-11-16T09:26:58.444+0800","caller":"Reddit_demo/main.go:90","msg":"Shutdown Server ..."}
+{"level":"INFO","time":"2023-11-16T09:26:58.445+0800","caller":"Reddit_demo/main.go:99","msg":"Server exiting"}
+{"level":"DEBUG","time":"2023-11-16T09:27:07.744+0800","caller":"Reddit_demo/main.go:39","msg":"logger init success..."}
+{"level":"DEBUG","time":"2023-11-16T09:29:31.241+0800","caller":"logic/vote.go:21","msg":"VoteForPost","userID":477227217063936,"postID":"2192892839858176","direction":1}
+{"level":"ERROR","time":"2023-11-16T09:29:31.241+0800","caller":"controllers/vote.go:36","msg":"logic.voteForPost() failed","error":"投票时间已过"}
+{"level":"INFO","time":"2023-11-16T09:29:31.241+0800","caller":"logger/logger.go:82","msg":"/api/v1/vote","status":200,"method":"POST","path":"/api/v1/vote","query":"","ip":"127.0.0.1","user-agent":"PostmanRuntime/7.35.0","errors":"","cost":0.0016254}
+{"level":"INFO","time":"2023-11-16T09:35:10.100+0800","caller":"Reddit_demo/main.go:90","msg":"Shutdown Server ..."}
+{"level":"INFO","time":"2023-11-16T09:35:10.101+0800","caller":"Reddit_demo/main.go:99","msg":"Server exiting"}
+{"level":"DEBUG","time":"2023-11-16T09:35:11.437+0800","caller":"Reddit_demo/main.go:39","msg":"logger init success..."}
+{"level":"INFO","time":"2023-11-16T09:35:42.883+0800","caller":"logger/logger.go:82","msg":"/api/v1/post","status":200,"method":"POST","path":"/api/v1/post","query":"","ip":"127.0.0.1","user-agent":"PostmanRuntime/7.35.0","errors":"","cost":0}
+{"level":"ERROR","time":"2023-11-16T09:36:43.344+0800","caller":"controllers/user.go:75","msg":"logic.Login failed","username":"xqx","error":"uid or password is wrong"}
+{"level":"INFO","time":"2023-11-16T09:36:43.344+0800","caller":"logger/logger.go:82","msg":"/api/v1/login","status":200,"method":"POST","path":"/api/v1/login","query":"","ip":"127.0.0.1","user-agent":"PostmanRuntime/7.35.0","errors":"","cost":0.0012508}
+{"level":"ERROR","time":"2023-11-16T09:37:16.335+0800","caller":"controllers/user.go:75","msg":"logic.Login failed","username":"atom","error":"uid or password is wrong"}
+{"level":"INFO","time":"2023-11-16T09:37:16.336+0800","caller":"logger/logger.go:82","msg":"/api/v1/login","status":200,"method":"POST","path":"/api/v1/login","query":"","ip":"127.0.0.1","user-agent":"PostmanRuntime/7.35.0","errors":"","cost":0.0008695}
+{"level":"ERROR","time":"2023-11-16T09:37:54.497+0800","caller":"controllers/user.go:75","msg":"logic.Login failed","username":"xqx","error":"uid or password is wrong"}
+{"level":"INFO","time":"2023-11-16T09:37:54.498+0800","caller":"logger/logger.go:82","msg":"/api/v1/login","status":200,"method":"POST","path":"/api/v1/login","query":"","ip":"127.0.0.1","user-agent":"PostmanRuntime/7.35.0","errors":"","cost":0.0013421}
+{"level":"ERROR","time":"2023-11-16T09:38:24.714+0800","caller":"controllers/user.go:75","msg":"logic.Login failed","username":"xqx","error":"uid or password is wrong"}
+{"level":"INFO","time":"2023-11-16T09:38:24.715+0800","caller":"logger/logger.go:82","msg":"/api/v1/login","status":200,"method":"POST","path":"/api/v1/login","query":"","ip":"127.0.0.1","user-agent":"PostmanRuntime/7.35.0","errors":"","cost":0.0008479}
+{"level":"INFO","time":"2023-11-16T09:38:48.188+0800","caller":"logger/logger.go:82","msg":"/api/v1/login","status":200,"method":"POST","path":"/api/v1/login","query":"","ip":"127.0.0.1","user-agent":"PostmanRuntime/7.35.0","errors":"","cost":0.0008981}
+{"level":"INFO","time":"2023-11-16T09:41:29.537+0800","caller":"logger/logger.go:82","msg":"/api/v1/post","status":200,"method":"POST","path":"/api/v1/post","query":"","ip":"127.0.0.1","user-agent":"PostmanRuntime/7.35.0","errors":"","cost":0.0031949}
+{"level":"DEBUG","time":"2023-11-16T09:42:05.818+0800","caller":"logic/vote.go:21","msg":"VoteForPost","userID":477227217063936,"postID":"2199868554612736","direction":1}
+{"level":"INFO","time":"2023-11-16T09:42:05.819+0800","caller":"logger/logger.go:82","msg":"/api/v1/vote","status":200,"method":"POST","path":"/api/v1/vote","query":"","ip":"127.0.0.1","user-agent":"PostmanRuntime/7.35.0","errors":"","cost":0.0008799}
+{"level":"DEBUG","time":"2023-11-16T09:42:11.829+0800","caller":"logic/vote.go:21","msg":"VoteForPost","userID":477227217063936,"postID":"2199868554612736","direction":1}
+{"level":"INFO","time":"2023-11-16T09:42:11.830+0800","caller":"logger/logger.go:82","msg":"/api/v1/vote","status":200,"method":"POST","path":"/api/v1/vote","query":"","ip":"127.0.0.1","user-agent":"PostmanRuntime/7.35.0","errors":"","cost":0.0009885}
+{"level":"INFO","time":"2023-11-16T09:43:38.757+0800","caller":"Reddit_demo/main.go:90","msg":"Shutdown Server ..."}
+{"level":"INFO","time":"2023-11-16T09:43:38.758+0800","caller":"Reddit_demo/main.go:99","msg":"Server exiting"}
+{"level":"DEBUG","time":"2023-11-16T10:57:36.967+0800","caller":"Reddit_demo/main.go:39","msg":"logger init success..."}
+{"level":"DEBUG","time":"2023-11-16T10:57:39.546+0800","caller":"logic/vote.go:21","msg":"VoteForPost","userID":477227217063936,"postID":"2199868554612736","direction":0}
+{"level":"INFO","time":"2023-11-16T10:57:39.547+0800","caller":"logger/logger.go:82","msg":"/api/v1/vote","status":200,"method":"POST","path":"/api/v1/vote","query":"","ip":"127.0.0.1","user-agent":"PostmanRuntime/7.35.0","errors":"","cost":0.0010607}
+{"level":"INFO","time":"2023-11-16T10:57:45.308+0800","caller":"Reddit_demo/main.go:90","msg":"Shutdown Server ..."}
+{"level":"INFO","time":"2023-11-16T10:57:45.309+0800","caller":"Reddit_demo/main.go:99","msg":"Server exiting"}
+{"level":"DEBUG","time":"2023-11-16T15:23:44.251+0800","caller":"Reddit_demo/main.go:39","msg":"logger init success..."}
+{"level":"INFO","time":"2023-11-16T15:24:06.599+0800","caller":"Reddit_demo/main.go:90","msg":"Shutdown Server ..."}
+{"level":"INFO","time":"2023-11-16T15:24:06.599+0800","caller":"Reddit_demo/main.go:99","msg":"Server exiting"}
+{"level":"DEBUG","time":"2023-11-16T15:43:56.775+0800","caller":"Reddit_demo/main.go:39","msg":"logger init success..."}
+{"level":"DEBUG","time":"2023-11-16T15:44:53.562+0800","caller":"logic/post.go:108","msg":"GetPostList2","ids":["2199868554612736"]}
+{"level":"ERROR","time":"2023-11-16T15:44:53.570+0800","caller":"controllers/post.go:103","msg":"logic.GetPostList() failed","error":"Error 1146 (42S02): Table 'reddit_demo.post_id' doesn't exist"}
+{"level":"INFO","time":"2023-11-16T15:44:53.571+0800","caller":"logger/logger.go:82","msg":"/api/v1/posts2/","status":200,"method":"GET","path":"/api/v1/posts2/","query":"page=1&size=2&order=score","ip":"127.0.0.1","user-agent":"PostmanRuntime/7.35.0","errors":"","cost":0.0100075}
+{"level":"INFO","time":"2023-11-16T15:45:44.379+0800","caller":"Reddit_demo/main.go:90","msg":"Shutdown Server ..."}
+{"level":"INFO","time":"2023-11-16T15:45:44.379+0800","caller":"Reddit_demo/main.go:99","msg":"Server exiting"}
+{"level":"DEBUG","time":"2023-11-16T15:45:52.249+0800","caller":"Reddit_demo/main.go:39","msg":"logger init success..."}
+{"level":"DEBUG","time":"2023-11-16T15:45:55.196+0800","caller":"logic/post.go:108","msg":"GetPostList2","ids":["2199868554612736"]}
+{"level":"DEBUG","time":"2023-11-16T15:45:55.198+0800","caller":"logic/post.go:114","msg":"GetPostList2","posts":[{"id":"2199868554612736","author_id":477227217063936,"community_id":1,"status":0,"title":"weather","content":"cloudy","create_time":"2023-11-16T09:41:29+08:00"}]}
+{"level":"INFO","time":"2023-11-16T15:45:55.204+0800","caller":"logger/logger.go:82","msg":"/api/v1/posts2/","status":200,"method":"GET","path":"/api/v1/posts2/","query":"page=1&size=2&order=score","ip":"127.0.0.1","user-agent":"PostmanRuntime/7.35.0","errors":"","cost":0.0081881}
+{"level":"DEBUG","time":"2023-11-16T15:46:16.115+0800","caller":"logic/post.go:108","msg":"GetPostList2","ids":["2199868554612736"]}
+{"level":"DEBUG","time":"2023-11-16T15:46:16.116+0800","caller":"logic/post.go:114","msg":"GetPostList2","posts":[{"id":"2199868554612736","author_id":477227217063936,"community_id":1,"status":0,"title":"weather","content":"cloudy","create_time":"2023-11-16T09:41:29+08:00"}]}
+{"level":"INFO","time":"2023-11-16T15:46:16.117+0800","caller":"logger/logger.go:82","msg":"/api/v1/posts2/","status":200,"method":"GET","path":"/api/v1/posts2/","query":"page=1&size=2&order=time","ip":"127.0.0.1","user-agent":"PostmanRuntime/7.35.0","errors":"","cost":0.0018822}
+{"level":"INFO","time":"2023-11-16T15:49:11.830+0800","caller":"Reddit_demo/main.go:90","msg":"Shutdown Server ..."}
+{"level":"INFO","time":"2023-11-16T15:49:11.831+0800","caller":"Reddit_demo/main.go:99","msg":"Server exiting"}
+{"level":"DEBUG","time":"2023-11-16T16:17:55.244+0800","caller":"Reddit_demo/main.go:39","msg":"logger init success..."}
+{"level":"DEBUG","time":"2023-11-16T16:17:57.388+0800","caller":"logic/post.go:108","msg":"GetPostList2","ids":["2199868554612736"]}
+{"level":"DEBUG","time":"2023-11-16T16:17:57.390+0800","caller":"logic/post.go:114","msg":"GetPostList2","posts":[{"id":"2199868554612736","author_id":477227217063936,"community_id":1,"status":0,"title":"weather","content":"cloudy","create_time":"2023-11-16T09:41:29+08:00"}]}
+{"level":"INFO","time":"2023-11-16T16:17:57.392+0800","caller":"logger/logger.go:82","msg":"/api/v1/posts2/","status":200,"method":"GET","path":"/api/v1/posts2/","query":"page=1&size=2&order=time","ip":"127.0.0.1","user-agent":"PostmanRuntime/7.35.0","errors":"","cost":0.0039207}
+{"level":"INFO","time":"2023-11-16T18:41:17.924+0800","caller":"Reddit_demo/main.go:90","msg":"Shutdown Server ..."}
+{"level":"INFO","time":"2023-11-16T18:41:17.926+0800","caller":"Reddit_demo/main.go:99","msg":"Server exiting"}
+{"level":"DEBUG","time":"2023-11-18T20:20:13.023+0800","caller":"Reddit_demo/main.go:39","msg":"logger init success..."}
+{"level":"DEBUG","time":"2023-11-18T21:21:52.421+0800","caller":"Reddit_demo/main.go:39","msg":"logger init success..."}
+{"level":"INFO","time":"2023-11-18T21:22:16.175+0800","caller":"logger/logger.go:82","msg":"/swagger/*any","status":404,"method":"GET","path":"/swagger/*any","query":"","ip":"::1","user-agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36","errors":"","cost":0.0006336}
+{"level":"INFO","time":"2023-11-18T21:22:16.518+0800","caller":"logger/logger.go:82","msg":"/favicon.ico","status":200,"method":"GET","path":"/favicon.ico","query":"","ip":"::1","user-agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36","errors":"","cost":0.0007948}
+{"level":"INFO","time":"2023-11-18T21:22:48.090+0800","caller":"logger/logger.go:82","msg":"/swagger/index.html","status":200,"method":"GET","path":"/swagger/index.html","query":"","ip":"::1","user-agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36","errors":"","cost":0.0008582}
+{"level":"INFO","time":"2023-11-18T21:22:48.118+0800","caller":"logger/logger.go:82","msg":"/swagger/swagger-ui.css","status":200,"method":"GET","path":"/swagger/swagger-ui.css","query":"","ip":"::1","user-agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36","errors":"","cost":0.0002174}
+{"level":"INFO","time":"2023-11-18T21:22:48.124+0800","caller":"logger/logger.go:82","msg":"/swagger/swagger-ui-standalone-preset.js","status":200,"method":"GET","path":"/swagger/swagger-ui-standalone-preset.js","query":"","ip":"::1","user-agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36","errors":"","cost":0.0063558}
+{"level":"INFO","time":"2023-11-18T21:22:48.126+0800","caller":"logger/logger.go:82","msg":"/swagger/swagger-ui-bundle.js","status":200,"method":"GET","path":"/swagger/swagger-ui-bundle.js","query":"","ip":"::1","user-agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36","errors":"","cost":0.0073212}
+{"level":"INFO","time":"2023-11-18T21:22:48.305+0800","caller":"logger/logger.go:82","msg":"/swagger/doc.json","status":200,"method":"GET","path":"/swagger/doc.json","query":"","ip":"::1","user-agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36","errors":"","cost":0.0007176}
+{"level":"INFO","time":"2023-11-18T21:22:48.436+0800","caller":"logger/logger.go:82","msg":"/swagger/favicon-32x32.png","status":200,"method":"GET","path":"/swagger/favicon-32x32.png","query":"","ip":"::1","user-agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36","errors":"","cost":0.0006517}
+{"level":"INFO","time":"2023-11-18T21:26:38.781+0800","caller":"Reddit_demo/main.go:90","msg":"Shutdown Server ..."}
+{"level":"INFO","time":"2023-11-18T21:26:38.781+0800","caller":"Reddit_demo/main.go:99","msg":"Server exiting"}
+{"level":"DEBUG","time":"2023-11-20T21:43:49.038+0800","caller":"Reddit_demo/main.go:39","msg":"logger init success..."}
+{"level":"INFO","time":"2023-11-20T22:01:32.644+0800","caller":"Reddit_demo/main.go:90","msg":"Shutdown Server ..."}
+{"level":"INFO","time":"2023-11-20T22:01:32.645+0800","caller":"Reddit_demo/main.go:99","msg":"Server exiting"}
+{"level":"DEBUG","time":"2023-11-22T16:22:19.034+0800","caller":"Reddit_demo/main.go:39","msg":"logger init success..."}
+{"level":"INFO","time":"2023-11-22T16:22:44.336+0800","caller":"logger/logger.go:82","msg":"/debug/pprof/","status":200,"method":"GET","path":"/debug/pprof/","query":"","ip":"127.0.0.1","user-agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36","errors":"","cost":0}
+{"level":"INFO","time":"2023-11-22T16:22:44.712+0800","caller":"logger/logger.go:82","msg":"/favicon.ico","status":200,"method":"GET","path":"/favicon.ico","query":"","ip":"127.0.0.1","user-agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36","errors":"","cost":0}
+{"level":"INFO","time":"2023-11-22T16:22:56.854+0800","caller":"Reddit_demo/main.go:90","msg":"Shutdown Server ..."}
+{"level":"INFO","time":"2023-11-22T16:22:56.854+0800","caller":"Reddit_demo/main.go:99","msg":"Server exiting"}
+{"level":"DEBUG","time":"2023-11-22T19:12:42.690+0800","caller":"Reddit_demo/main.go:39","msg":"logger init success..."}
+{"level":"INFO","time":"2023-11-22T19:12:55.421+0800","caller":"logger/logger.go:82","msg":"/","status":200,"method":"GET","path":"/","query":"","ip":"127.0.0.1","user-agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36","errors":"","cost":0.0005765}
+{"level":"INFO","time":"2023-11-22T19:12:55.805+0800","caller":"logger/logger.go:82","msg":"/favicon.ico","status":200,"method":"GET","path":"/favicon.ico","query":"","ip":"127.0.0.1","user-agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36","errors":"","cost":0}
+{"level":"INFO","time":"2023-11-22T19:13:03.409+0800","caller":"logger/logger.go:82","msg":"/debug/pprof/","status":200,"method":"GET","path":"/debug/pprof/","query":"","ip":"127.0.0.1","user-agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36","errors":"","cost":0.0013169}
+{"level":"INFO","time":"2023-11-22T19:13:03.537+0800","caller":"logger/logger.go:82","msg":"/favicon.ico","status":200,"method":"GET","path":"/favicon.ico","query":"","ip":"127.0.0.1","user-agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36","errors":"","cost":0}
+{"level":"INFO","time":"2023-11-22T19:13:51.765+0800","caller":"Reddit_demo/main.go:90","msg":"Shutdown Server ..."}
+{"level":"INFO","time":"2023-11-22T19:13:51.767+0800","caller":"Reddit_demo/main.go:99","msg":"Server exiting"}
