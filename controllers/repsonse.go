@@ -1,6 +1,5 @@
 package controllers
 
-import "C"
 import (
 	"net/http"
 
@@ -8,7 +7,6 @@ import (
 )
 
 /*
-
 	code:程序中的错误码
 	msg:提示信息
 	data:数据

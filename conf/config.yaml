@@ -1,0 +1,30 @@
+name: "web_app"
+mode: "dev"
+port: 8080
+version: "v0.0.23"
+start_time: "2023-11-10"
+machine_id: 1
+
+log:
+  level: "debug"
+  filename: "web_app.log"
+  max_size: 200
+  max_age: 30
+  max_backups: 7
+
+mysql:
+  host: "mysql"
+  port: 23306
+  user: "root"
+  password: "root"
+  dbname: "reddit"
+  max_open_conns: 200
+  max_idle_conns: 50
+
+redis:
+  host: "redis"
+  password: ""
+  port: 26379
+  db: 0
+  pool_size: 100
+
